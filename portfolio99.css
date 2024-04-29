@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+}
+.horizontal-list{
+    display: flex;
+    background: #497bcbc5;
+
+}
+.horizontal-list li{
+    margin-right: 20px;
+}
+.jaguar{
+    flex: 1;
+    background-position: center;
+    background-color: #979a90;
+}
+.upar{
+    background-color: #e0e4e8;
+}
+.info{
+    background-color: aliceblue;
+    margin-left: 5px;
+}
+.hrishi{
+    flex: 1;
+    background-color: #f6d0c2;
+}
+body{
+    flex: 1;
+    background-color: #dbd7d7;
+}
