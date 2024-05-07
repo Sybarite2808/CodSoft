@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrishi-Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+
+body{
+    background-color: rgb(4, 4, 55);
+    color: rgb(249, 246, 246);
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    height: 80px;
+    background-color: #17174a;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+nav ul li {
+     list-style: none;
+    margin: 0 20px;
+}
+
+.l2{
+    font-size: 2rem;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    color: lightslategray; /* or any other color you prefer */
+}
+
+nav ul li a:hover{
+color:white;
+font-size: 1.58rem;
+}
+
+.First {
+    display: flex;
+    justify-content: space-around; /* Align child divs horizontally to the center */
+    text-align: center;
+    align-items: center;
+}
+
+.First div {
+    width: 50%; /* Set the width of each child div */
+    margin: 40px 10px;
+   }
+
+.leftSec{
+    margin-top: 40px;
+    font-size: 4rem;
+    }
+
+.RightSec{
+    margin-top: 40px;
+    background-color:rgb(4, 4, 55);
+}
+
+.RightSec img {
+    max-width: 100%; 
+}
+
+#element{
+    color: purple;
+}
+
+.btn button{
+    font-size: 3rem;
+    padding: 20px;
+    border: 10px;
+    background-color: #836194;
+    cursor: pointer;
+}
+.but1{
+    margin: 30px;
+}
+.but2{
+    margin: 3-px;
+}
+
+.sec2span1{
+    width: 25%;
+    height: 100px;
+    color: gray;
+    margin-left: 300px;
+    font-size: 1.4rem;
+   
+}
+
+.java{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color:rgb(4, 4, 55);
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.java div{
+    width: 40%;
+}
+
+.j1 img{
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.j2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+
+.hc{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color:rgb(4, 4, 55);
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.hc div{
+    width: 40%;
+}
+
+.hc1 img{
+
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.hc2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+
+.js{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color:rgb(4, 4, 55);
+    margin-left: 750px;
+    margin-top: 100px;
+}
+.js div{
+    width: 40%;
+}
+
+.js1 img{
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.js2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+
+.mern{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(4, 4, 55);
+    margin-left: 1050px;
+    margin-top: 100px;
+}
+.mern div{
+    width: 40%;
+}
+
+.mern1 img{
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.mern2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+.git{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(4, 4, 55);
+    margin-left: 1350px;
+    margin-top: 100px;
+}
+.git div{
+    width: 40%;
+}
+
+.git1 img{
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.git2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+.sol{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(4, 4, 55);
+    margin-left: 1650px;
+    margin-top: 100px;
+}
+.sol div{
+    width: 40%;
+}
+
+.sol1 img{
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.sol2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+
+.cod{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(4, 4, 55);
+    margin-left: 1950px;
+    margin-top: 100px;
+}
+.cod div{
+    width: 40%;
+}
+
+.cod1 img{
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.cod2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(4, 4, 55);
+    margin-left: 2250px;
+    margin-top: 100px;
+}
+.last div{
+    width: 40%;
+}
+
+
+.last1 img{
+    margin-left: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.last2{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+    </style>
+
+
+
+</head>
+<body>
+    <header style="height: 50px;">
+        <nav>
+            <div style="display: flex;">
+                <div class="l1"><img src="/multimedia/Screenshot_2024-04-29_220745-transformed-modified.png" alt="Logo" style="width: 70px;"></div>
+                <div class="l2"><i>The codeRush</i></div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Services</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<section class="First" >
+    <div class="leftSec">Hello there!! My  name is <span style="color: purple;">Hrishi</span>
+    and am a passionate <br>
+        <span id="element"> <br></span>
+
+    </div>
+    
+        <div class="RightSec"><img src="/multimedia/—Pngtree—illustration of a programmer at_6006377.png" alt=""></div>
+    
+</section>
+<div style="margin-left: 300px;" class="btn">
+    <button class="but1"><a href="https://github.com/Sybarite2808/Sybarite2808/blob/main/Rushi.res.may.pdf">Download Resume</a></button>
+    <button class="but2"><a href="https://github.com/Sybarite2808">Visit GitHub</a></button>
+</div>
+<hr style=" margin: 130px; margin-bottom: 70px;">
+<section style="background-color: #01011f;" class="second">
+    <span class="sec2span1">What I have learnt so far..</span>
+    <div style="margin-left: 300px; font-size: 3rem;"><b>My Experience</b>:</div>
+   <div class="java">
+    <div class="j1"><img src="/multimedia/pngwing.com(2).png" alt=""></div>
+    <div class="j2"><u style="font-size: 2.5rem;">Java-2022</u><br><br>
+        <i style="font-size: 1.5rem;">"I specialize in Java development, proficient in crafting efficient solutions and implementing algorithms. With a keen eye for detail, I excel in backend development, ensuring robust and scalable applications. I am dedicated to continuous learning and staying updated with the latest trends, enabling me to deliver high-quality software solutions that meet both user requirements and industry standards."</i>
+    </div>
+   </div>
+   <div class="hc">
+    <div class="hc1"><img src="/multimedia/pngegg.png" alt=""></div>
+    <div class="hc2"><u style="font-size: 2.5rem;">Html/Css-2023</u><br><br>
+        <i style="font-size: 1.5rem;">"I'm a passionate HTML/CSS developer dedicated to crafting visually stunning and highly functional web experiences. With a keen eye for design and a commitment to clean, efficient code, I specialize in bringing concepts to life with pixel-perfect precision. Let's collaborate to create websites that not only look amazing but also delight users with seamless interactivity."</i>
+    </div>
+   </div>
+
+   <div class="js">
+    <div class="js1"><img src="/multimedia/pngwing.com(3).png" alt=""></div>
+    <div class="js2"><u style="font-size: 2.5rem;">JavaScript-2024</u><br><br>
+        <i style="font-size: 1.5rem;">"As a JavaScript developer, I specialize in architecting innovative solutions that push the boundaries of web development. From crafting responsive user interfaces to optimizing backend performance, my expertise spans the full stack. My portfolio showcases a range of projects, each demonstrating my ability to leverage JavaScript's power to create dynamic and scalable applications. Let's explore how I can bring value to your next project."</i>
+    </div>
+   </div>
+
+   <div class="mern">
+    <div class="mern1"><img src="/multimedia/pngaaa.com-7365622.png" alt=""></div>
+    <div class="mern2"><u style="font-size: 2.5rem;">Mern Stack-2024</u><br><br>
+        <i style="font-size: 1.5rem;">"Seasoned MERN stack developer adept in MongoDB, Express.js, React.js, and Node.js. Excels in crafting dynamic full-stack web applications, synergizing the power of each technology for optimal performance. With a flair for problem-solving and collaboration, consistently delivers top-notch, scalable solutions that exceed client expectations and elevate industry benchmarks."</i>
+    </div>
+   </div>
+
+   <div class="git">
+    <div class="git1"><img src="/multimedia/pngwing.com(5).png" alt=""></div>
+    <div class="git2"><u style="font-size: 2.5rem;">GitHub-2024</u><br><br>
+        <i style="font-size: 1.5rem;">"Experienced GitHub handler proficient in version control and collaboration workflows. Skilled in managing repositories, branching strategies, and pull requests to streamline development processes. Expertise in code review, issue tracking, and ensuring code quality through continuous integration. Dedicated to facilitating effective team collaboration and maximizing project efficiency through Git best practices."</i>
+    </div>
+   </div>
+
+   <div class="sol">
+    <div class="sol1"><img src="/multimedia/pngwing.com(6).png" alt=""></div>
+    <div class="sol2"><u style="font-size: 2.5rem;">Solidity-2024</u><br><br>
+        <i style="font-size: 1.5rem;">"Experienced Solidity developer proficient in blockchain development. Skilled in smart contract development, decentralized application (DApp) creation, and Ethereum-based projects. Expertise in blockchain technologies, consensus mechanisms, and secure coding practices. Dedicated to delivering innovative solutions in the rapidly evolving blockchain space, ensuring reliability, security, and optimal performance."</i>
+    </div>
+   </div>
+
+   <div class="cod">
+    <div class="cod1"><img src="\multimedia\WhatsApp Image 2024-05-03 at 23.12.59_c7bc6159.jpg" alt=""></div>
+    <div class="cod2"><u style="font-size: 2.5rem;">CodSoft[Project Intern]- April(2024)-Present</u><br><br>
+        <i style="font-size: 1.5rem;">"Embarking on my internship journey at Codsoft as a JavaScript Project Intern has been an exciting and enriching experience. Immersed in real-world projects, I'm actively honing my coding skills, debugging techniques, and collaborative abilities within a dynamic team setting. This opportunity is not only deepening my understanding of web development but also paving the way for a promising future in the tech industry."</i>
+    </div>
+   </div>
+
+  
+   <div class="last">
+    <div class="last1"><img src="/multimedia/Ascension in Progress SVG Mystic svg mystical svg meditation svg chakra svg aligned svg namaste svg om svg stake woke svg woke af svg.jpeg" alt=""></div>
+    <div class="last2"><br><br>
+        <i style="font-size: 10rem;">...</i>
+        <img src="multimedia/logs.gif" alt="">
+    </div>
+   </div>
+</section>
+
+
+
+</main>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Java Developer','Blockchain Enthusiast','Web Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+
+</body>
+<footer class="foot">
+   <div class="f1">This is Hrishi's <br> Portfolio.</div>
+   <div class="f2">
+    <ul style="list-style: none;">
+        <li><a href="/">Home</li></a>
+        <li><a href="/">About</li></a>
+        <li><a href="/">Services</li></a>
+        <li><a href="/">Contact</li></a>
+    </ul>
+   </div>
+   <div class="f3">
+    <ul  style="list-style: none;">
+        <li><a href="/">Rate</li></a>
+        <li><a href="/">Feedback</li></a>
+        <li><a href="/">Suggestions <br>
+             (if any)</li></a>
+    </ul>
+   </div>
+
+</footer>
+<div style="text-align: center; font-size: 4rem; background-color:rgb(22, 21, 55); color: black;">All &#169; rights reserved by www.codeRush.in</div>
+<style>
+    .foot{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 600px;
+        background-color: rgb(22, 21, 55);
+    }
+    .foot div{
+        width: 30%;
+        font-size: 4rem;
+        margin-top: 50px;
+        
+    }
+    .foot a{
+       color: lightslategray;
+    }
+   
+    .foot .f2 ul li a:hover{
+        color: white;
+        cursor: pointer;
+         font-size: 5rem;
+    }
+    .foot .f3 ul li a:hover{
+        color: white;
+        cursor: pointer;
+         font-size: 5rem;
+    }
+    </style>
+</html>
