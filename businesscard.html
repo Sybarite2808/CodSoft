@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Card</title>
+  
+</head>
+<style>
+     *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(156, 199, 197);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  perspective: 1000px; /* For a subtle 3D effect on hover */
+}
+
+.card {
+  width: 300px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  background-image: url(/multimedia/jaguarLove.avif);
+  
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: rotateY(10deg);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px; /* Half outside the card */
+  border: 5px solid rgb(216, 204, 215); /* Creates a nice border effect */
+}
+
+.info {
+    color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+p {
+  color: #140c0c;
+  font-size: 0.9em;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+.social-icons a {
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+</style>
+<body>
+  <div class="card-container">
+      <div class="card">
+          <img src="/multimedia/hrishi.jpg" alt="Your Name" class="avatar" height="100px">
+          <div class="info">
+              <h1>Hrishikesh Ingale</h1>
+              <p>Web Developer</p>
+              <p>hrishikeshingale963@gmail.com</p>
+              <p>+91-8767008441</p>
+              <div class="social-icons">
+                  <a href="https://twitter.com/yourname">
+                      <img src="/multimedia/twitter.webp" alt="Twitter"></a>
+                  <a href="https://linkedin.com/in/yourname">
+                      <img src="/multimedia/linkedin.webp" alt="LinkedIn"></a>
+                  <a href="https://github.com/yourname">
+                      <img src="/multimedia/github.webp" alt="GitHub"></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
